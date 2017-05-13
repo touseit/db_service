@@ -44,7 +44,7 @@ public:
 		std::string szProtoDir = szDir;
 		szProtoDir += "/proto";
 		
-		this->m_nID = db::create("192.168.222.1", 3306, "test", "root", "123456", "utf8", szProtoDir, 5, 10, 1);
+		this->m_nID = db::create("localhost", 3306, "camera", "root", "", "utf8", szProtoDir, 5, 10, 1);
 	}
 
 	virtual ~CMyDbProxy()
