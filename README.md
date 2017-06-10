@@ -211,3 +211,5 @@
 			cout << "id: " << base.id() << " name: " << szText << endl;
 		}
 	})
+	
+	Creating a new branch is quick.
